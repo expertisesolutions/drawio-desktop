@@ -4,6 +4,7 @@
   "description": "diagrams.net desktop",
   "main": "electron.js",
   "scripts": {
+    "develop": "DRAWIO_ENV=dev npm start",
     "start": "electron ./drawio/src/main/webapp",
     "sync": "node ./sync.js",
     "release-win": "electron-builder --config electron-builder-win.json",
